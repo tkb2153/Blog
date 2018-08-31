@@ -24,18 +24,20 @@ class BlogController extends Controller
     public function index()
     {
         $data = [
-            [
-                'name' => 'name-1',
-                'content' => 'content-1',
-            ],
-            [
-                'name' => 'name-2',
-                'content' => 'content-2',
-            ],
-            [
-                'name' => 'name-3',
-                'content' => 'content-3',
-            ],
+            'data' => [
+                [
+                    'name' => 'name-1',
+                    'content' => 'content-1',
+                ],
+                [
+                    'name' => 'name-2',
+                    'content' => 'content-2',
+                ],
+                [
+                    'name' => 'name-3',
+                    'content' => 'content-3',
+                ],
+            ]
         ];
         
         return view('blog::index', $data);
