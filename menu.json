@@ -1,0 +1,14 @@
+{
+	"Microservices-A" : {
+		"member" : {
+			"create" : "Role-A",
+			"update" : "Role-B",
+			"delete" : "Role-C"
+		},
+		"deposit" : {
+			"create" : "Role-A",
+			"update" : "Role-B",
+			"delete" : "Role-C"
+		}
+	}
+}
