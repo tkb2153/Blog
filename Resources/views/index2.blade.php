@@ -1,7 +1,7 @@
 @extends('common.header')
 
 @section('content')
-<h1>default - content</h1>
+<h1>default - content 2</h1>
 <div class="container">
 	@foreach ($data as $_ => $value)
 	<div class="row">

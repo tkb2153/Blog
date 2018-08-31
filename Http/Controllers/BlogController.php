@@ -42,6 +42,28 @@ class BlogController extends Controller
         
         return view('blog::index', $data);
     }
+    
+    public function index2()
+    {
+        $data = [
+            'data' => [
+                [
+                    'name' => 'name-1',
+                    'content' => 'content-1',
+                ],
+                [
+                    'name' => 'name-2',
+                    'content' => 'content-2',
+                ],
+                [
+                    'name' => 'name-3',
+                    'content' => 'content-3',
+                ],
+            ]
+        ];
+        
+        return view('blog::index2', $data);
+    }
 
     /**
      * Show the form for creating a new resource.
