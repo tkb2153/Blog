@@ -1,14 +1,17 @@
 {
 	"Blog" : {
-		"member" : {
-			"create" : "Role-A",
-			"update" : "Role-B",
-			"delete" : "Role-C"
-		},
-		"deposit" : {
-			"create" : "Role-A",
-			"update" : "Role-B",
-			"delete" : "Role-C"
+		"module_name" : "blog",
+		"menus" : {
+			"member" : {
+				"create" : "Role-A",
+				"update" : "Role-B",
+				"delete" : "Role-C"
+			},
+			"deposit" : {
+				"create" : "Role-A",
+				"update" : "Role-B",
+				"delete" : "Role-C"
+			}
 		}
 	}
 }
