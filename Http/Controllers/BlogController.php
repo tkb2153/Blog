@@ -21,7 +21,7 @@ class BlogController extends Controller
      * Display a listing of the resource.
      * @return Response
      */
-    public function index()
+    public function deposit()
     {
         $data = [
             'data' => [
@@ -40,10 +40,10 @@ class BlogController extends Controller
             ]
         ];
         
-        return view('blog::index', $data);
+        return view('blog::despoit', $data);
     }
     
-    public function index2()
+    public function member()
     {
         $data = [
             'data' => [
@@ -62,7 +62,7 @@ class BlogController extends Controller
             ]
         ];
         
-        return view('blog::index2', $data);
+        return view('blog::member', $data);
     }
 
     /**
