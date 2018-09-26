@@ -40,7 +40,7 @@ class BlogController extends Controller
             ]
         ];
         
-        return view('blog::despoit', $data);
+        return view('blog::deposit', $data);
     }
     
     public function member()
